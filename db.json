@@ -1,0 +1,212 @@
+{
+  "courseInfo": {
+    "title": "وب ۲",
+    "description": "در این درس با مفاهیم پیشرفته برنامه‌نویسی وب، فریم‌ورک React و توسعه برنامه‌های تک‌صفحه‌ای (SPA) آشنا خواهید شد.",
+    "teacher": {
+      "name": "دکتر علی علوی",
+      "image": "https://i.pravatar.cc/300",
+      "description": "استادیار دانشکده مهندسی کامپیوتر",
+      "email": "alavi@university.ac.ir",
+      "officeHours": "یکشنبه و سه‌شنبه ۱۴-۱۶",
+      "expertise": [
+        "React",
+        "Node.js",
+        "Web Development",
+        "Software Engineering"
+      ]
+    }
+  },
+  "courses": [
+    {
+      "id": "1",
+      "code": "CS-401",
+      "title": "مبانی برنامه‌نویسی وب",
+      "units": 3,
+      "capacity": 30,
+      "registered": 25,
+      "prerequisites": [],
+      "description": "آشنایی با HTML، CSS و JavaScript",
+      "semester": "نیمسال اول ۱۴۰۲-۱۴۰۳",
+      "schedule": {
+        "days": ["یکشنبه", "سه‌شنبه"],
+        "time": "۱۰:۳۰-۱۲:۰۰",
+        "location": "کلاس ۱۰۱"
+      }
+    },
+    {
+      "id": "2",
+      "code": "CS-402",
+      "title": "برنامه‌نویسی وب پیشرفته",
+      "units": 3,
+      "capacity": 25,
+      "registered": 20,
+      "prerequisites": ["CS-401"],
+      "description": "کار با فریم‌ورک‌های مدرن وب",
+      "semester": "نیمسال اول ۱۴۰۲-۱۴۰۳",
+      "schedule": {
+        "days": ["شنبه", "دوشنبه"],
+        "time": "۱۴:۰۰-۱۵:۳۰",
+        "location": "کلاس ۲۰۲"
+      }
+    },
+    {
+      "id": "3",
+      "code": "CS-403",
+      "title": "امنیت وب",
+      "units": 3,
+      "capacity": 20,
+      "registered": 15,
+      "prerequisites": ["CS-401", "CS-402"],
+      "description": "اصول امنیت در برنامه‌های تحت وب",
+      "semester": "نیمسال اول ۱۴۰۲-۱۴۰۳",
+      "schedule": {
+        "days": ["یکشنبه", "سه‌شنبه"],
+        "time": "۱۶:۰۰-۱۷:۳۰",
+        "location": "کلاس ۳۰۳"
+      }
+    },
+    {
+      "id": "1",
+      "code": "CS101",
+      "name": "مبانی برنامه‌نویسی",
+      "faculty": "مهندسی کامپیوتر",
+      "credits": 3,
+      "capacity": 40,
+      "registered": 35,
+      "gender": "مختلط",
+      "status": "فعال",
+      "professor": "دکتر محمدی",
+      "schedule": {
+        "days": ["شنبه", "دوشنبه"],
+        "time": "10:30-12:00"
+      },
+      "prerequisites": ["ریاضی 1"],
+      "description": "آشنایی با مفاهیم پایه برنامه‌نویسی و الگوریتم‌ها"
+    },
+    {
+      "id": "2",
+      "code": "CS201",
+      "name": "ساختمان داده",
+      "faculty": "مهندسی کامپیوتر",
+      "credits": 3,
+      "capacity": 30,
+      "registered": 28,
+      "gender": "مختلط",
+      "status": "فعال",
+      "professor": "دکتر احمدی",
+      "schedule": {
+        "days": ["یکشنبه", "سه‌شنبه"],
+        "time": "9:00-10:30"
+      },
+      "prerequisites": ["مبانی برنامه‌نویسی"],
+      "description": "آشنایی با ساختارهای داده و الگوریتم‌های پایه"
+    },
+    {
+      "id": "3",
+      "code": "EE101",
+      "name": "مدارهای الکتریکی",
+      "faculty": "مهندسی برق",
+      "credits": 3,
+      "capacity": 35,
+      "registered": 30,
+      "gender": "مردانه",
+      "status": "فعال",
+      "professor": "دکتر رضایی",
+      "schedule": {
+        "days": ["شنبه", "دوشنبه"],
+        "time": "14:00-15:30"
+      },
+      "prerequisites": ["فیزیک 2"],
+      "description": "آشنایی با اصول مدارهای الکتریکی"
+    },
+    {
+      "id": "4",
+      "code": "MATH101",
+      "name": "ریاضی 1",
+      "faculty": "علوم پایه",
+      "credits": 3,
+      "capacity": 50,
+      "registered": 45,
+      "gender": "زنانه",
+      "status": "غیرفعال",
+      "professor": "دکتر کریمی",
+      "schedule": {
+        "days": ["یکشنبه", "سه‌شنبه"],
+        "time": "8:00-9:30"
+      },
+      "prerequisites": [],
+      "description": "مفاهیم پایه حسابان و جبر خطی"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "محمد محمدی",
+      "image": "https://i.pravatar.cc/150?img=1",
+      "description": "دانشجوی ترم ۶ مهندسی کامپیوتر",
+      "studentId": "99123456",
+      "email": "mohammadi@university.ac.ir",
+      "phone": "09123456789",
+      "major": "مهندسی کامپیوتر - نرم‌افزار",
+      "entryYear": "1399",
+      "gpa": "17.5",
+      "bio": "علاقه‌مند به برنامه‌نویسی وب و هوش مصنوعی. در حال یادگیری React و Node.js",
+      "socialMedia": {
+        "github": "github.com/mohammadi",
+        "linkedin": "linkedin.com/in/mohammadi"
+      },
+      "skills": {
+        "html": 90,
+        "javascript": 75,
+        "react": 60
+      },
+      "enrolledCourses": [1, 2]
+    },
+    {
+      "id": "2",
+      "name": "زهرا احمدی",
+      "image": "https://i.pravatar.cc/150?img=2",
+      "description": "دانشجوی ترم ۵ مهندسی نرم‌افزار",
+      "studentId": "99123457",
+      "email": "ahmadi@university.ac.ir",
+      "phone": "09123456788",
+      "major": "مهندسی کامپیوتر - نرم‌افزار",
+      "entryYear": "1399",
+      "gpa": "18.2",
+      "bio": "عاشق طراحی رابط کاربری و تجربه کاربری. تجربه کار با React و Vue.js",
+      "socialMedia": {
+        "github": "github.com/ahmadi",
+        "linkedin": "linkedin.com/in/ahmadi"
+      },
+      "skills": {
+        "html": 85,
+        "javascript": 80,
+        "react": 70
+      },
+      "enrolledCourses": [1, 3]
+    },
+    {
+      "id": "3",
+      "name": "علی رضایی",
+      "image": "https://i.pravatar.cc/150?img=3",
+      "description": "دانشجوی ترم ۷ مهندسی کامپیوتر",
+      "studentId": "98123458",
+      "email": "rezaei@university.ac.ir",
+      "phone": "09123456787",
+      "major": "مهندسی کامپیوتر - هوش مصنوعی",
+      "entryYear": "1398",
+      "gpa": "16.8",
+      "bio": "متخصص در زمینه امنیت وب و توسعه بک‌اند. تجربه کار با Node.js و Python",
+      "socialMedia": {
+        "github": "github.com/rezaei",
+        "linkedin": "linkedin.com/in/rezaei"
+      },
+      "skills": {
+        "html": 95,
+        "javascript": 85,
+        "react": 75
+      },
+      "enrolledCourses": [2, 3]
+    }
+  ]
+}
